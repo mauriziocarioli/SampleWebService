@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>/sample-webservice</context-root>
+</jboss-web>
