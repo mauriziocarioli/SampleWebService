@@ -1,0 +1,20 @@
+= Sample JAX-WS Web Service
+
+* Deploy sample_webservice.war to Wildfly, Tomcat, etc.
+* Consume it.
+
+== WebService Custom Work Item Handler
+
+=== Input Parameters
+
+* Namespace http://examples.batigerteam.redhat.com/
+* Operation sayHallo
+* Url http://localhost:8080/sample-webservice/SampleWebService?wsdl
+* Endpoint http://localhost:8080/sample-webservice/SampleWebService
+* Interface SampleWebServiceService
+* Mode SYNC
+* Parameter Dave
+
+=== Output Parameters
+
+* Result pResult
